@@ -39,7 +39,7 @@ print("Eager execution: {}".format(tf.executing_eagerly()))
 #train_dataset_url = "http://download.tensorflow.org/data/iris_training.csv"
 
 #train_dataset_fp = tf.keras.utils.get_file(fname=os.path.basename(train_dataset_url), origin=train_dataset_url)
-train_dataset_fp = "/home/mirkpul/.keras/datasets/iris_training.csv"
+train_dataset_fp = "data/iris_training.csv"
 
 print("Local copy of the dataset file: {}".format(train_dataset_fp))
 
