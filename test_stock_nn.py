@@ -39,9 +39,9 @@ print("Eager execution: {}".format(tf.executing_eagerly()))
 
 #train_dataset_fp = tf.keras.utils.get_file(fname=os.path.basename(train_dataset_url), origin=train_dataset_url)
 #train_dataset_fp = "/home/mirkpul/Desktop/fca.csv"
-#train_dataset_fp = "/home/mirkpul/Desktop/fca_normalizzazione.csv"
+train_dataset_fp = "data/fca_normalizzazione.csv"
+train_dataset_fp = "data/tesla.csv"
 #train_dataset_fp = "/home/mirkpul/Desktop/fca_standardizzazione.csv"
-train_dataset_fp = "data/google_normalizzazione.csv"
 
 
 print("Local copy of the dataset file: {}".format(train_dataset_fp))
